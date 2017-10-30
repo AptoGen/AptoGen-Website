@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { COLORS, PARAGRAPH_TYPEOGRAPHY, OTHER_TYPEOGRAPHY, SPACING } from '../lib/styles';
+import { COLORS, TYPEOGRAPHY, SPACING } from '../lib/styles';
 
 const Button = ({ type, onClick, children, copyTarget, style, active }) =>
 (
@@ -15,7 +15,7 @@ const Button = ({ type, onClick, children, copyTarget, style, active }) =>
     <style jsx>
       {`
         p {
-          font-family: '${OTHER_TYPEOGRAPHY}'
+          font-family: '${TYPEOGRAPHY.input}'
           font-size: 14px;
           line-height: 22px;
           color: ${COLORS.text};
@@ -33,7 +33,7 @@ const Button = ({ type, onClick, children, copyTarget, style, active }) =>
           font-weight: bold;
         }
         button {
-          font-family: ${OTHER_TYPEOGRAPHY};
+          font-family: ${TYPEOGRAPHY.input};
           font-size: ${SPACING.lg};
           background-color: ${COLORS.input};
           border: none;

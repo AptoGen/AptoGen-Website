@@ -5,6 +5,7 @@ import { COLORS, SPACING } from '../../lib/styles';
 import H2 from '../Typography/H2';
 import H4 from '../Typography/H4';
 import H5 from '../Typography/H5';
+import H6 from '../Typography/H6';
 import P from '../Typography/Paragraph';
 
 import Profile from './Profile';

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import Link from 'next/link';
 
-import { COLORS, TEXTSIZE, SPACING } from '../../lib/styles';
+import { COLORS, TEXTSIZE, SPACING, TYPEOGRAPHY } from '../../lib/styles';
 
 const NavigationBar = () => {
   return (
@@ -55,6 +55,7 @@ const NavigationBar = () => {
       }
 
       .navLink {
+        font-family: ${TYPEOGRAPHY.input}
         display: inline-block;
         padding: ${SPACING.sm} ${SPACING.md};
 
@@ -64,7 +65,8 @@ const NavigationBar = () => {
       }
 
       .navLink:hover {
-        background-color: rgba(145, 106, 74, 0.9);
+        background-color: ${COLORS.shaders.nav};
+        font-style: italic;
       }
 
       #navLogo {

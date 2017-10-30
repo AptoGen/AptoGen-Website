@@ -89,7 +89,6 @@ const Technologies = () => {
           margin: ${SPACING.md} auto;
           padding: 0 ${SPACING.md};
           width: 40%;
-          background-color: rgba(48, 51, 50, 0.25);
           text-align: center;
         }
 

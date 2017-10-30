@@ -10,7 +10,7 @@ const Banner = (props) => {
     <div id="bannerWrapper">
       <img src="/static/images/loader.svg" width="250px"/>
       <H1>AptoGEN</H1>
-      <H5>Driver of software intovation.</H5>
+      <H5 light style={{ fontStyle: 'italic' }} >Driver of software intovation.</H5>
       <style jsx>{`
         #bannerWrapper{
           background: ${COLORS.alt};

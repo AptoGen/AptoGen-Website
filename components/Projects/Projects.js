@@ -5,6 +5,7 @@ import { COLORS, SPACING } from '../../lib/styles';
 import H2 from '../Typography/H2';
 import H5 from '../Typography/H5';
 import P from '../Typography/Paragraph';
+import Link from '../Typography/Link';
 
 const Projects = () => {
   const h5 = {
@@ -18,12 +19,15 @@ const Projects = () => {
 
       <div id="projects">
         <section className="project">
-          <H5 style={h5} >Sexy Candies</H5>
+          <Link href="https://sexycandies.herokuapp.com/" >
+            <H5 style={{ fontFamily: 'Great Vibes', color: '#b90000', 'font-size': '54px',  }}>Sexy Candies</H5>
+          </Link>
           <P>
             Somart Martos is a Puerto Rican pastry chef that creates delicious
             works of art. She makes every occasion ellegant with her top quality
             products.
           </P>
+
         </section>
 
       </div>
@@ -53,7 +57,6 @@ const Projects = () => {
           margin: ${SPACING.md};
           padding: 0 ${SPACING.md};
           width: 50%;
-          background-color: rgba(48, 51, 50, 0.25);
         }
       `}</style>
     </article>
