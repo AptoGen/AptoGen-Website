@@ -1,20 +1,21 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import { LINKS } from '../lib/styles';
+import { LINKS } from '../../lib/styles';
 
 const Link = ({ href, target, children, download, media, rel, type }) => (
   <a href={href} target={target} download={download} media={media} rel={rel} type={type} >
     {children}
     <style>{`
       a {
-        color: ${LINKS.normal}
+        color: ${LINKS.normal};
+        text-decoration: none;
       }
       a::hover {
-        color: ${LINKS.hover}
+        color: ${LINKS.hover};
       },
       a::active {
-        color: ${LINKS.active}
+        color: ${LINKS.active};
       },
     `}
     </style>
