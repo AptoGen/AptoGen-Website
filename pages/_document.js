@@ -23,7 +23,8 @@ export default class MyDocument extends Document {
           {/* <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' /> */}
           {/* <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Material+Icons' /> */}
 
-          <link href="https://fonts.googleapis.com/css?family=Catamaran|Crimson+Text|Josefin+Sans" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Catamaran:300,400,500,600,700,800|Exo:300,300i,400,400i,500,500i,600,600i|Gentium+Book+Basic:400,400i|Amata|Wire+One" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Marck+Script|Sacramento|Yellowtail" rel="stylesheet" />
 
           <link rel="stylesheet" href="/static/css/base.css" />
         </Head>
